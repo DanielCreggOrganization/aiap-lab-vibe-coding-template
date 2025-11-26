@@ -16,6 +16,7 @@ Welcome to the Vibe Coding Lab! In this lab, you'll explore three powerful AI-dr
 7. [🔧 Troubleshooting & Help](#7--troubleshooting--help)  
 8. [🤖 Vibe Coding Best Practices](#8--vibe-coding-best-practices)  
 9. [🎓 Academic Integrity](#9--academic-integrity)  
+10. [🔄 Alternative Tools: Bolt.new & Cursor](#-alternative-tools-boltnew--cursor)  
 
 ---
 
@@ -325,6 +326,101 @@ This lab teaches you to:
 - Understand the trade-offs of different development approaches
 - Develop skills in prompt engineering
 - Reflect on the future of software development
+
+---
+
+## 🔄 Alternative Tools: Bolt.new & Cursor
+
+If you're having trouble accessing any of the three tools above (waitlists, region restrictions, access issues), don't worry! Here are two excellent alternatives that are widely used in the industry.
+
+---
+
+### Option A: Bolt.new
+
+Bolt.new is a browser-based AI development environment that lets you build and deploy web apps using natural language — no installation required.
+
+**What makes it great:**
+- Runs entirely in your browser — nothing to install
+- Describe what you want, and it writes the code instantly
+- Built-in deployment to Netlify with one click
+- Very beginner-friendly (feels like chatting with ChatGPT)
+
+**Setup Steps:**
+
+1. **Navigate to**: [https://bolt.new](https://bolt.new)
+2. **Sign in** with your GitHub or Google account.
+3. **Start building** — just type what you want to create!
+
+```mermaid
+graph LR
+    A[Go to bolt.new] --> B[Sign In]
+    B --> C[Describe Your App]
+    C --> D[Watch It Build]
+    D --> E[Deploy with One Click]
+```
+
+**Try the To-Do App Challenge:**
+- Type: *"Create a simple to-do list app where I can add tasks, mark them complete, and delete them"*
+- Watch the code appear and the preview update in real-time
+- Refine by adding more instructions like *"Add a dark mode toggle"*
+
+---
+
+### Option B: Cursor
+
+Cursor is an AI-powered code editor built on VS Code. It's used by professional developers and offers a more hands-on coding experience with AI assistance built in.
+
+**What makes it great:**
+- Full IDE experience with AI that understands your entire codebase
+- Access to GPT-4, Claude, and Gemini models
+- Multi-file editing and intelligent debugging
+- Industry-standard tool used by professional developers
+
+#### 🎓 FREE FOR STUDENTS: One Year of Cursor Pro!
+
+> **Eligible university students get one full year of Cursor Pro completely free** — that's a $240 value! This includes 500 fast premium requests per month and access to all premium AI models.
+
+**Setup Steps:**
+
+1. **Go to**: [https://cursor.com](https://cursor.com)
+2. **Click "Download"** and install Cursor for your operating system (Windows, Mac, or Linux).
+3. **Create an account** using your **university email address** (e.g., your @atu.ie email).
+4. **Verify your student status**:
+   - Go to: [https://cursor.com/students](https://cursor.com/students)
+   - Click **"Verify"** and enter your academic email
+   - Follow the verification steps (uses SheerID)
+5. **Once verified**, your free year of Pro access will be activated automatically.
+
+```mermaid
+graph TD
+    A[Download Cursor] --> B[Create Account with Uni Email]
+    B --> C[Go to cursor.com/students]
+    C --> D[Click Verify]
+    D --> E[Enter Academic Email]
+    E --> F[Free Pro Access Activated!]
+```
+
+**Try the To-Do App Challenge:**
+- Create a new folder for your project
+- Open Cursor and press `Cmd+K` (Mac) or `Ctrl+K` (Windows) to open the AI prompt
+- Type: *"Create a simple to-do list web app with HTML, CSS, and JavaScript"*
+- Use `Cmd+L` / `Ctrl+L` to chat with the AI about your code
+- Ask it to add features: *"Add local storage so tasks persist after refresh"*
+
+---
+
+### Comparison: Bolt.new vs Cursor
+
+| Feature | Bolt.new | Cursor |
+|---------|----------|--------|
+| **Type** | Browser-based | Desktop IDE |
+| **Best For** | Quick prototypes, beginners | Serious development, learning |
+| **Setup Time** | Instant (just visit website) | 5-10 mins (download + verify) |
+| **Code Access** | View only (AI writes it) | Full control (you + AI together) |
+| **Cost** | Free tier available | **Free for 1 year (students)** |
+| **Deployment** | One-click Netlify | Manual (Vercel, Netlify, etc.) |
+
+**Recommendation:** Try both! Use Bolt.new for rapid prototyping, and Cursor when you want more control and a deeper understanding of the code.
 
 ---
 
